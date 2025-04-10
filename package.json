@@ -15,7 +15,7 @@
 	"author": "Nerivec",
 	"license": "GPL-3.0-or-later",
 	"dependencies": {
-		"zigbee-herdsman-converters": "^23.23.0"
+		"zigbee-herdsman-converters": "^23.24.0"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4"
