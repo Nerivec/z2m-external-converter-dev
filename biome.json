@@ -1,6 +1,10 @@
 {
-    "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
-    "vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true },
+    "$schema": "https://biomejs.dev/schemas/2.0.6/schema.json",
+    "vcs": {
+        "enabled": true,
+        "clientKind": "git",
+        "useIgnoreFile": true
+    },
     "formatter": {
         "indentStyle": "space",
         "indentWidth": 4,
@@ -8,12 +12,19 @@
         "bracketSpacing": false
     },
     "files": {
-        "ignore": ["package.json"]
+        "includes": ["**", "!package.json"]
     },
     "linter": {
         "rules": {
             "suspicious": {
                 "useAwait": "error"
+            },
+            "correctness": {
+                "noUnusedImports": "error",
+                "noUnusedFunctionParameters": "off"
+            },
+            "complexity": {
+                "useLiteralKeys": "off"
             },
             "style": {
                 "useNamingConvention": {
@@ -35,7 +46,17 @@
                             }
                         ]
                     }
-                }
+                },
+                "noParameterAssign": "error",
+                "useAsConstAssertion": "error",
+                "useDefaultParameterLast": "error",
+                "useEnumInitializers": "error",
+                "useSelfClosingElements": "error",
+                "useSingleVarDeclarator": "error",
+                "noUnusedTemplateLiteral": "error",
+                "useNumberNamespace": "error",
+                "noInferrableTypes": "error",
+                "noUselessElse": "error"
             }
         }
     }
