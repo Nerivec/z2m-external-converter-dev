@@ -4,7 +4,7 @@ import {access, presets} from "zigbee-herdsman-converters/lib/exposes";
 import {bind} from "zigbee-herdsman-converters/lib/reporting";
 import {getFromLookup, getKey} from "zigbee-herdsman-converters/lib/utils";
 
-/** @type{Record<string, import('zigbee-herdsman-converters/lib/types').Fz.Converter>} */
+/** @type{Record<string, import('zigbee-herdsman-converters/lib/types').Fz.Converter<"genMultistateInput", undefined, ["readResponse", "attributeReport"]>>} */
 const fzLocal = {
     diyruz_freepad_clicks: {
         cluster: "genMultistateInput",
