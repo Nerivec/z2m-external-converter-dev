@@ -7,17 +7,23 @@
 version: 2
 updates:
   - package-ecosystem: "devcontainers"
+    commit-message:
+      prefix: fix
     directory: "/"
     schedule:
       interval: weekly
 
   - package-ecosystem: "npm"
+    commit-message:
+      prefix: fix
     versioning-strategy: increase
     directory: "/"
     schedule:
       interval: "daily"
 
   - package-ecosystem: github-actions
+    commit-message:
+      prefix: chore
     directory: "/"
     schedule:
       interval: weekly
