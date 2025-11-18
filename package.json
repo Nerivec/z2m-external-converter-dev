@@ -15,7 +15,7 @@
 	"author": "Nerivec",
 	"license": "GPL-3.0-or-later",
 	"dependencies": {
-		"zigbee-herdsman": "^6.4.1",
+		"zigbee-herdsman": "^6.4.2",
 		"zigbee-herdsman-converters": "^25.68.0"
 	},
 	"devDependencies": {
