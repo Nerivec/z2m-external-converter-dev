@@ -16,7 +16,7 @@
 	"license": "GPL-3.0-or-later",
 	"dependencies": {
 		"zigbee-herdsman": "^10.0.1",
-		"zigbee-herdsman-converters": "^26.18.0"
+		"zigbee-herdsman-converters": "^26.19.1"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^2.4.6"
