@@ -19,6 +19,6 @@
 		"zigbee-herdsman-converters": "^26.72.0"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^2.5.0"
+		"@biomejs/biome": "^2.5.1"
 	}
 }
